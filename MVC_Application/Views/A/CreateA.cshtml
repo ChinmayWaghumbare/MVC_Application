@@ -1,0 +1,21 @@
+﻿@model MVC_Application.Models.ViewModelA
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateA</title>
+</head>
+<body>
+    <div>
+         @using (Html.BeginForm())
+        {
+             @Html.LabelFor(m => m.Name);
+        }
+    </div>
+</body>
+</html>
